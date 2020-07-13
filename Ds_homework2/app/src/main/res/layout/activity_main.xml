@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <!--위의 상단바 메뉴와 전체 배경-->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+
+            <!--보라색 상단 레이아웃-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#A09FED"
+                >
+
+                <!--DoubleSlash 상단 메뉴-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/menu"
+                        android:layout_width="25dp"
+                        android:layout_height="20dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/asset1_2x"
+                        android:layout_marginTop="4dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DOUBLESLASH"
+                        android:textSize="25dp"
+                        android:textColor="#fff"
+                        android:paddingLeft="55dp"
+                        android:paddingRight="60dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="5dp"
+                        />
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/asset2_2x"
+                        android:layout_marginTop="4dp"/>
+
+                </LinearLayout>
+
+                <!--세부메뉴 파트-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Video"
+                        android:textSize="17dp"
+                        android:textColor="#fff"
+                        android:layout_margin="15dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="50dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Music"
+                        android:textSize="17dp"
+                        android:textColor="#fff"
+                        android:layout_margin="15dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="50dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Picture"
+                        android:textSize="17dp"
+                        android:textColor="#fff"
+                        android:layout_margin="15dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="50dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Article"
+                        android:textSize="17dp"
+                        android:textColor="#fff"
+                        android:layout_margin="15dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="50dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--하단 배경-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#F5F5FD"
+                >
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <!--상단 그림 메뉴와 내용-->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <!--상단 그림 메뉴-->
+                <LinearLayout
+                    android:layout_width="280dp"
+                    android:layout_height="80dp"
+                    android:orientation="horizontal"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:layout_marginTop="80dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/shutter"
+                        android:layout_margin="10dp"/>
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/contract"
+                        android:layout_margin="10dp"/>
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/heart"
+                        android:layout_margin="10dp"/>
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/star"
+                        android:layout_margin="10dp"/>
+
+                </LinearLayout>
+                <!--내용-->
+                <LinearLayout
+                    android:layout_width="280dp"
+                    android:layout_height="300dp"
+                    android:orientation="vertical"
+                    android:background="#fff"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Featured Pictures"
+                        android:textColor="#D3D2F5"
+                        android:textSize="15dp"
+                        android:paddingBottom="10dp"/>
+                    <LinearLayout
+                        android:layout_width="240dp"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal"
+                        android:background="#FFE0BF"
+                        android:layout_margin="5dp">
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="240dp"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal"
+                        android:layout_margin="5dp">
+
+                        <LinearLayout
+                            android:layout_width="115dp"
+                            android:layout_height="70dp"
+                            android:orientation="horizontal"
+                            android:background="#ACFF8C"
+                            android:layout_marginRight="5dp">
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="115dp"
+                            android:layout_height="70dp"
+                            android:orientation="horizontal"
+                            android:background="#CBA1FF"
+                            android:layout_marginLeft="5dp">
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="240dp"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal"
+                        android:layout_margin="5dp">
+
+                        <LinearLayout
+                            android:layout_width="73dp"
+                            android:layout_height="70dp"
+                            android:orientation="horizontal"
+                            android:background="#FFC7E5"
+                            android:layout_marginRight="5dp">
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="73dp"
+                            android:layout_height="70dp"
+                            android:orientation="horizontal"
+                            android:background="#F4FFCC"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp">
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="73dp"
+                            android:layout_height="70dp"
+                            android:orientation="horizontal"
+                            android:background="#A494FF"
+                            android:layout_marginLeft="5dp">
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <!--하단바-->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:background="#fff"
+                android:layout_gravity="bottom"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/file"
+                    android:layout_margin="20dp"/>
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/share"
+                    android:layout_margin="40dp"/>
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/users"
+                    android:layout_margin="20dp"/>
+
+            </LinearLayout>
+        </FrameLayout>
+    </FrameLayout>
+
+</LinearLayout>
